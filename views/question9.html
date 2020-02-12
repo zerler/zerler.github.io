@@ -9,39 +9,44 @@
   <style>
     .pictures img { width: 100%; }
     .question { font-family: 'Dancing Script', cursive; }
+    .spaced { margin-bottom: 10px; }
   </style>
   <title>Quiz Timeeee</title>
 </head>
 <body>
   <header>
-    <h1 class="question center-align" id="question">Where was our first date?</h1>
+    <h1 class="question center-align" id="question">How much do I love you?</h1>
   </header>
 
   <!-- 4 equally spaced pictures as choices -->
-  <div class="pictures">
-    <div class="w3-row" id="top">
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="top-left-link">
-          <img src="" alt="pic" id="top-left">
-        </a>
-      </div>
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="top-right-link">
-          <img src="" alt="pic" id="top-right">
-        </a>
-      </div>
+  <div class="pictures" style="text-align: center;">
+    <div class="w3-row spaced" id="first">
+      <a href="/views/wrong.html" id="top-left-link">
+        <img src="../public/heart.png" alt="pic" id="top-left" style="height: 80px; width: 80px;">
+      </a>
     </div>
-    <div class="w3-row" id="bottom">
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="bottom-left-link">
-          <img src="" alt="pic" id="bottom-left">
-        </a>
-      </div>
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="bottom-right-link">
-          <img src="" alt="pic" id="bottom-right">
-        </a>
-      </div>
+    <div class="w3-row spaced" id="second">
+      <a href="/views/wrong.html" id="top-right-link">
+        <span>
+          <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+          <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+        </span>
+      </a>
+    </div>
+    <div class="w3-row spaced" id="third">
+      <a href="/views/wrong.html" id="bottom-left-link">
+        <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+        <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+        <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+      </a>
+    </div>
+    <div class="w3-row spaced" id="fourth">
+      <a href="/views/question10.html" id="bottom-right-link">
+        <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+        <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+        <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+        <img src="../public/heart.png" alt="pic" style="height: 80px; width: 80px;">
+      </a>
     </div>
   </div>
   <div class="hide" id="question-number">0</div>
