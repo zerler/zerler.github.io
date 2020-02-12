@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+  <style>
+    .pictures img { width: 100%; }
+    .question { font-family: 'Dancing Script', cursive; }
+  </style>
+  <title>Quiz Timeeee</title>
+</head>
+<body>
+  <header>
+    <h1 class="question center-align" id="question">Which one is our future dog?</h1>
+  </header>
+
+  <!-- 4 equally spaced pictures as choices -->
+  <div class="pictures">
+    <div class="w3-row" id="top">
+      <div class="w3-col s6">
+        <a href="/views/wrong.html" id="top-left-link">
+          <img src="https://www.keystonepuppies.com/wp-content/uploads/2018/09/Black-Lab-Category-e1519318452583.jpg" alt="pic" id="top-left">
+        </a>
+      </div>
+      <div class="w3-col s6">
+        <a href="/views/question6.html" id="top-right-link">
+          <img src="https://gfp-2a3tnpzj.stackpathdns.com/wp-content/uploads/2016/07/Australian-Shepherd.jpg" alt="pic" id="top-right">
+        </a>
+      </div>
+    </div>
+    <div class="w3-row" id="bottom">
+      <div class="w3-col s6">
+        <a href="/views/wrong.html" id="bottom-left-link">
+          <img src="https://cdn.akc.org/Marketplace/Breeds/Golden_Retriever_SERP.jpg" alt="pic" id="bottom-left">
+        </a>
+      </div>
+      <div class="w3-col s6">
+        <a href="/views/wrong.html" id="bottom-right-link">
+          <img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/3/22/0/shutterstock_national-puppy-day-224423782.jpg.rend.hgtvcom.966.725.suffix/1521744674350.jpeg" alt="pic" id="bottom-right">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hide" id="question-number">0</div>
+  <!-- removed to try and shift perspective to many html docs instead of all JS -->
+  <!-- <script src="app.js"></script> -->
+</body>
+</html>

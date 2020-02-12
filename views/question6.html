@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+  <style>
+    .pictures img { width: 100%; }
+    .question { font-family: 'Dancing Script', cursive; }
+  </style>
+  <title>Quiz Timeeee</title>
+</head>
+<body>
+  <header>
+    <h1 class="question center-align" id="question">First big city trip?</h1>
+  </header>
+
+  <!-- 4 equally spaced pictures as choices -->
+  <div class="pictures">
+    <div class="w3-row">
+      <a href="/views/wrong.html" id="top-left-link">
+        <img src="https://drivito2.imgix.drizly.com/5f93122b7685d985/86050bb2137e/wa-seattle.jpg?auto=format%2Ccompress&fm=jpeg&q=40&w=1800" alt="seattle" id="top-left">
+      </a>
+    </div>
+    <div class="w3-row">
+      <a href="/views/question7.html" id="top-right-link">
+        <img src="https://www.zenogroup.com/sites/g/files/aatuss426/files/styles/full_hero/public/2019-06/Zeno%20Chicago%20%202.jpg?h=a141e9ea&itok=oI9Jz7fh" alt="chi" id="top-right">
+      </a>
+    </div>
+    <div class="w3-row">
+      <a href="/views/wrong.html" id="bottom-left-link">
+        <img src="https://image.cnbcfm.com/api/v1/image/105284147-GettyImages-673632588.jpg?v=1557935343&w=1400&h=950" alt="san fran" id="bottom-left">
+      </a>
+    </div>
+    <div class="w3-row">
+      <a href="/views/wrong.html" id="bottom-right-link">
+        <img src="https://specials-images.forbesimg.com/imageserve/5d93909224fbf10007b8a1fd/960x0.jpg?fit=scale" alt="nyc" id="bottom-right">
+      </a>
+    </div>
+  </div>
+  <div class="hide" id="question-number">0</div>
+  <!-- removed to try and shift perspective to many html docs instead of all JS -->
+  <!-- <script src="app.js"></script> -->
+</body>
+</html>

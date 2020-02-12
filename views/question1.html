@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+  <style>
+    .pictures img { width: 100%; }
+    .question { font-family: 'Dancing Script', cursive; }
+  </style>
+  <title>Quiz Timeeee</title>
+</head>
+<body>
+  <header>
+    <h1 class="question center-align" id="question">Where was our first date?</h1>
+  </header>
+
+  <!-- 4 equally spaced pictures as choices -->
+  <div class="pictures">
+    <div class="w3-row" id="top">
+      <div class="w3-col s6">
+        <a href="/views/wrong.html" id="top-left-link">
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIHBhUSEwgWFhUWEBkREBAQEBAXGBUZFREWFhURFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0ODxAPDysZFRkrKysrKysrKys3LTcrKystNy0rNysrLS0tKzctKysrMi0tLSstKzcrNys3KysrKzctN//AABEIAMgAyAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBBAcDAv/EAEEQAAIBAwIDBAYGBwcFAAAAAAECAAMEEQUSBiExEyJBUTJSYXGBkQcUFUKhsSNicpLB0fAkMzSCssLhFkOTovH/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQMCBAX/xAAjEQEBAAIDAQABBAMAAAAAAAAAAQIRAxIhMUETImGCMkJR/9oADAMBAAIRAxEAPwCLiInxnJERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBEzjMAZPT5SKxE3aWkXFYd2xqewlGAP702P+m7vH+Bbz5lR/GXcWY2/6oqJt3OmVrQZe1dR6xXI+azVxG0ss+sRM4zMQhERAREQEREBERAYjERAYjERAYjERAYjERAYiJkDMshpI6FpL6xd7FOAAC7nmFH3ce0y0momj1zQstJ7esuBUqMVVULebt4nyE1fo8uFSrWpk94hXUeYXdn5bpPX9yNFo8rVijMTUrKVJQtz7Rh97H8Jnb7p7OLCa2iK9TWKR3fW7MePYncCP1cnH5zVrcZ3ejt/atA5E/3tu+UI9nUfjPT6vYana/pLRqlXaXKuWFZlZv71c4BJHPA8JE0barZDdputrVTo1rcOuVPq4eaSS+VrpYbbj7T7uh3rnbkYZKqN+73ciQtLSKGrX7NQuWNItlQlJsLu9LLNgY+M1xR1DtdzaHaUT41awoBflkyWsL8U+Taitaqg3uKI229Af5eTHyHjFxk+JcZfqqXNPsbhl35CuQGA67Z4za1GutzfO6JgNUJUexpqyT48GUkt0YjERCGIxEQGIxEQGIiICIiAiIgIiICIiIQlg4e4cOo0+0q1OzojJJ7oLbfS5t6I9sg7en21cL5sF/eaW76Qbj6npFGzptt7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" alt="pic" id="top-left">
+        </a>
+      </div>
+      <div class="w3-col s6">
+        <a href="/views/question2.html" id="top-right-link">
+          <img src="https://static.wixstatic.com/media/348c03_5a096d62fd6641ebb64510f19c58c7ea~mv2.jpg" alt="pic" id="top-right">
+        </a>
+      </div>
+    </div>
+    <div class="w3-row" id="bottom">
+      <div class="w3-col s6">
+        <a href="/views/wrong.html" id="bottom-left-link">
+          <img src="http://wjts.tv/wp-content/uploads/2019/04/original-76feb601eb540157b6a3f634779cc29d.png" alt="pic" id="bottom-left">
+        </a>
+      </div>
+      <div class="w3-col s6">
+        <a href="/views/wrong.html" id="bottom-right-link">
+          <img src="https://jazzstl.org/wp-content/uploads/2017/11/Ferring-Jazz-Bistro-8.jpg" alt="pic" id="bottom-right">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hide" id="question-number">0</div>
+  <!-- removed to try and shift perspective to many html docs instead of all JS -->
+  <!-- <script src="app.js"></script> -->
+</body>
+</html>
