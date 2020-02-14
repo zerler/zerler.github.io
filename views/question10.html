@@ -9,39 +9,36 @@
   <style>
     .pictures img { width: 100%; }
     .question { font-family: 'Dancing Script', cursive; }
+    .spaced { margin-bottom: 10px; }
   </style>
   <title>Quiz Timeeee</title>
 </head>
 <body>
   <header>
-    <h1 class="question center-align" id="question">Where was our first date?</h1>
+    <h1 class="question center-align" id="question">What's my favorite food?</h1>
   </header>
 
   <!-- 4 equally spaced pictures as choices -->
-  <div class="pictures">
-    <div class="w3-row" id="top">
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="top-left-link">
-          <img src="" alt="pic" id="top-left">
-        </a>
-      </div>
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="top-right-link">
-          <img src="" alt="pic" id="top-right">
-        </a>
-      </div>
+  <div class="pictures" style="text-align: center;">
+    <div class="w3-row spaced" id="first">
+      <a href="/views/wrong.html" id="top-left-link">
+        <img src="https://www.rachaelrayshow.com/sites/default/files/styles/video_1920x1080/public/images/2019-10/14021_stock_escarole_salad_with_pears_and_blue_cheese.jpg?itok=tb2e0Jmk" alt="salad">
+      </a>
     </div>
-    <div class="w3-row" id="bottom">
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="bottom-left-link">
-          <img src="" alt="pic" id="bottom-left">
-        </a>
-      </div>
-      <div class="w3-col s6">
-        <a href="/views/wrong.html" id="bottom-right-link">
-          <img src="" alt="pic" id="bottom-right">
-        </a>
-      </div>
+    <div class="w3-row spaced" id="second">
+      <a href="/views/success.html" id="top-right-link">
+        <img src="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/strawberries.jpg?itok=WXVLbw1Q" alt="strawberries">
+      </a>
+    </div>
+    <div class="w3-row spaced" id="third">
+      <a href="/views/wrong.html" id="bottom-left-link">
+        <img src="https://assets3.thrillist.com/v1/image/2843520/size/gn-gift_guide_variable_c.jpg" alt="tacos">
+      </a>
+    </div>
+    <div class="w3-row spaced" id="fourth">
+      <a href="/views/question10.html" id="bottom-right-link">
+        <img src="https://www.onceuponachef.com/images/2018/02/pan-seared-salmon-.jpg" alt="salmon">
+      </a>
     </div>
   </div>
   <div class="hide" id="question-number">0</div>
